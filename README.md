@@ -7,3 +7,5 @@ There is a bug I have tried correcting that causes the "player_hand [5:0]" regis
 Additionally, the linear feedback shift register (LFSR) module which I used to generate the shuffled deck register array "deck [11:0]" will at times output a number greater than 10. This causes the seven segment display to turn all of its segments off and inputs an undesired card value into the player or dealer's hand.
 
 The logic dictating the dealer's behavior function's well on its own and may be pulled for use in a future project.
+
+Finally, the name's of files connected to this project do not fit with their usecase. This is because the script was generated on top of an already existing project designed by Dr. Peter Jamieson of Miami University to save time programing the pin assignments. Thank you Dr. Jamieson for all of your support, understanding, and tough love for all your students. My time in this course was challenging but I enjoyed it to the fullest extent. Best to you and yours, love and honor.
